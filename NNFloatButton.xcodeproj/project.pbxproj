@@ -15,6 +15,10 @@
 		CE1F6A111FB0568F0051213D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6A101FB0568F0051213D /* main.m */; };
 		CE1F6A1B1FB056900051213D /* NNFloatButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6A1A1FB056900051213D /* NNFloatButtonTests.m */; };
 		CE1F6A261FB056900051213D /* NNFloatButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6A251FB056900051213D /* NNFloatButtonUITests.m */; };
+		CE1F6A361FB148D40051213D /* NNFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6A351FB148D40051213D /* NNFloatView.m */; };
+		CE1F6A391FB148FB0051213D /* NNFloatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6A381FB148FB0051213D /* NNFloatButton.m */; };
+		CE1F6A3C1FB1630F0051213D /* 分享好友@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6A3A1FB1630F0051213D /* 分享好友@2x.png */; };
+		CE1F6A3D1FB1630F0051213D /* 分享好友@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6A3B1FB1630F0051213D /* 分享好友@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		CE1F6A211FB056900051213D /* NNFloatButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNFloatButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1F6A251FB056900051213D /* NNFloatButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNFloatButtonUITests.m; sourceTree = "<group>"; };
 		CE1F6A271FB056900051213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1F6A341FB148D40051213D /* NNFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNFloatView.h; sourceTree = "<group>"; };
+		CE1F6A351FB148D40051213D /* NNFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNFloatView.m; sourceTree = "<group>"; };
+		CE1F6A371FB148FB0051213D /* NNFloatButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNFloatButton.h; sourceTree = "<group>"; };
+		CE1F6A381FB148FB0051213D /* NNFloatButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNFloatButton.m; sourceTree = "<group>"; };
+		CE1F6A3A1FB1630F0051213D /* 分享好友@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享好友@2x.png"; sourceTree = "<group>"; };
+		CE1F6A3B1FB1630F0051213D /* 分享好友@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享好友@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,7 @@
 				CE1F6A021FB0568F0051213D /* AppDelegate.m */,
 				CE1F6A041FB0568F0051213D /* ViewController.h */,
 				CE1F6A051FB0568F0051213D /* ViewController.m */,
+				CE1F6A331FB1489C0051213D /* NNFloatView */,
 				CE1F6A071FB0568F0051213D /* Main.storyboard */,
 				CE1F6A0A1FB0568F0051213D /* Assets.xcassets */,
 				CE1F6A0C1FB0568F0051213D /* LaunchScreen.storyboard */,
@@ -130,6 +141,19 @@
 				CE1F6A271FB056900051213D /* Info.plist */,
 			);
 			path = NNFloatButtonUITests;
+			sourceTree = "<group>";
+		};
+		CE1F6A331FB1489C0051213D /* NNFloatView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F6A3A1FB1630F0051213D /* 分享好友@2x.png */,
+				CE1F6A3B1FB1630F0051213D /* 分享好友@3x.png */,
+				CE1F6A341FB148D40051213D /* NNFloatView.h */,
+				CE1F6A351FB148D40051213D /* NNFloatView.m */,
+				CE1F6A371FB148FB0051213D /* NNFloatButton.h */,
+				CE1F6A381FB148FB0051213D /* NNFloatButton.m */,
+			);
+			path = NNFloatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1F6A0E1FB0568F0051213D /* LaunchScreen.storyboard in Resources */,
+				CE1F6A3C1FB1630F0051213D /* 分享好友@2x.png in Resources */,
 				CE1F6A0B1FB0568F0051213D /* Assets.xcassets in Resources */,
 				CE1F6A091FB0568F0051213D /* Main.storyboard in Resources */,
+				CE1F6A3D1FB1630F0051213D /* 分享好友@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1F6A061FB0568F0051213D /* ViewController.m in Sources */,
+				CE1F6A361FB148D40051213D /* NNFloatView.m in Sources */,
+				CE1F6A391FB148FB0051213D /* NNFloatButton.m in Sources */,
 				CE1F6A111FB0568F0051213D /* main.m in Sources */,
 				CE1F6A031FB0568F0051213D /* AppDelegate.m in Sources */,
 			);

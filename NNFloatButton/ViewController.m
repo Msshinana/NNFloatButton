@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NNFloatView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NNFloatView *view = [[NNFloatView alloc]initWithFrame:CGRectMake(0, 200, 100, 100) withImageStr:@"分享好友"];
+    view.floatButtonBlock = ^{
+        NSLog(@"点击了按钮");
+    };
+    [self.view addSubview:view];
 }
 
 
